@@ -18,6 +18,7 @@ describe String do
     it "returns false if the string that you are calling this method on does NOT end in question mark." do 
       expect("Happy Halloween!".question?).to eq(false)
     end
+    end
 
   end
 
